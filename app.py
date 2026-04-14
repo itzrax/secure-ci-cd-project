@@ -2,7 +2,7 @@ from flask import Flask
 import os
 
 def insecure_function():
-    os.system("ls")
+    
 app = Flask(__name__)
 
 @app.route('/')
